@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,300,300i,400,500,700&subset=latin-ext');
+
+$color-peach: #FF8984;
+
+body {
+  background-color: #EDF7F5;
+}
+
+input {
+  outline: none;
+  padding: 5px 0;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  transition: border-bottom-color 300ms;
+  background-color: transparent;
+
+  &:focus {
+    border-bottom-color: black;
+  }
+}
+
+button {
+  font-family: inherit;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 300;
+  cursor: pointer;
+  color: white;
+  background-color: $color-peach;
+  transition: background-color 300ms;
+  outline: none;
+  border-style: none;
+
+  &:hover {
+    background-color: darken($color-peach, 40%);
+  }
+
+  &:active {
+   background-color: darken($color-peach, 60%); 
+  }
+}
+
+ul {
+  margin: 0;
+}
+
+.errorMessage {
+  color: red;
+  font-weight: 100;
+}

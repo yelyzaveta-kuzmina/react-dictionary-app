@@ -1,0 +1,38 @@
+.wordInput {
+  font-size: 25px;
+}
+
+.dictionaryContainer {
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  max-width: 500px;
+  padding-top: 50px;
+}
+
+.wordInputContainer {
+  display: flex;
+
+  input {
+    flex: 1;
+  }
+}
+
+.dictionary {
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.app {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.right {
+  flex: 0 0 250px;
+  margin-left: 100px;
+  margin-top: 25px;
+}

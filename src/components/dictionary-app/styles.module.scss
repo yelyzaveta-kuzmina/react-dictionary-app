@@ -1,0 +1,35 @@
+.dictionaryApp {
+  h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 200;
+  }
+
+  .translationSection {
+    position: relative;
+    margin-top: 40px;
+  }
+
+  .mainTranslationSection {
+    display: flex;
+
+    .left {
+      flex: 1;
+    }
+  }
+}
+
+.imageCard {
+  flex: 0 0 150px;
+  margin-left: 10px;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.noWordMessage {
+  margin-top: 10px;
+  font-size: 15px;
+}

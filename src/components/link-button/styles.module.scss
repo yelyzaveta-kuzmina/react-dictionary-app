@@ -1,0 +1,13 @@
+.linkButton {
+  text-decoration: none;
+  color: #FF8984;
+  transition: color 150ms;
+
+  &:hover {
+    color: darken(#FF8984, 30%);
+  }
+
+  &:active {
+    color: darken(#FF8984, 60%);
+  }
+}

@@ -1,0 +1,17 @@
+.suggestedWords {
+  margin-top: 35px;
+  font-size: 18px;
+  font-weight: 300;
+
+  ul {
+    text-transform: capitalize;
+    list-style-type: none;
+    padding-left: 10px;
+  };
+
+  h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 100;
+  };
+}
