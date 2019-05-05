@@ -40,7 +40,7 @@ const DictionaryApp = ({ className, word, onWordChange }) => {
                 {wordDetails.description}
               </div>
             </div>
-            {isImageShown && (
+            {isImageShown && wordDetails.imgQuery && (
               <ImageCard className={styles.imageCard} imageQuery={wordDetails.imgQuery} />
             )}
           </div>

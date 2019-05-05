@@ -1,0 +1,10 @@
+.imageCard {
+  position: relative;
+
+  .spinnerContainer {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+}
